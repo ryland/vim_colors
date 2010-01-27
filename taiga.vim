@@ -63,7 +63,7 @@ if has("gui_running")
   highlight Underlined guifg=#00aa65 gui=underline
   highlight Delimiter  guifg=#b09f92
   highlight Title      guifg=#9a527e
-  highlight SpecialKey guifg=#aa3333 guibg=#1060a0
+  highlight SpecialKey guifg=#aa3333 guibg=#1c0002
 
 
   " Ruby
