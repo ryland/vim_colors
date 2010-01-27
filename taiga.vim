@@ -59,8 +59,11 @@ if has("gui_running")
   highlight Macro      guifg=#c67dac
   highlight Error      guifg=red guibg=#110000 gui=bold,underline
   highlight Todo       guifg=#bb3333 guibg=NONE gui=underline
-  highlight Special    guifg=#587e6e guibg=#111210 gui=underline
-  highlight Underlined  guifg=#00aa65 gui=underline
+  highlight Special    guifg=#587e6e guibg=#111210
+  highlight Underlined guifg=#00aa65 gui=underline
+  highlight Delimiter  guifg=#b09f92
+  highlight Title      guifg=#9a527e
+  highlight SpecialKey guifg=#aa3333 guibg=#1060a0
 
 
   " Ruby
@@ -73,8 +76,9 @@ if has("gui_running")
   highlight rubyRegexpDelimiter guifg=#984539
   highlight rubyRegexpSpecial guifg=#aa2b15
   highlight link rubyConstant Constant
-  highlight link rubyInterpolationDelimiter Identifier
+  highlight link rubyInterpolationDelimiter Delimiter
   highlight link rubyGlobalVariable rubyInstanceVariable
+  highlight link erubyDelimiter Delimiter
 
   " Javascript
   highlight link javaScriptOperator Operator
@@ -95,8 +99,4 @@ if has("gui_running")
   highlight link cssPseudoClassId htmlArg
   highlight link cssBraces htmlTag
   highlight link cssProperty rubySymbol
-
-  " color of <TAB>s etc...  
-  highlight SpecialKey guifg=#aa3333 guibg=#1c0002
-  highlight IncSearch guibg=#16181A
 endif
