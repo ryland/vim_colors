@@ -55,7 +55,7 @@ if has("gui_running")
   highlight Repeat      guifg=#6a9a8a gui=bold
   highlight Conditional guifg=#ab610a
   highlight PreProc    guifg=#1060a0
-  highlight Define     guifg=#ed2217 
+  highlight Define     guifg=#cd494a 
   highlight Macro      guifg=#c67dac
   highlight Error      guifg=red guibg=#110000 gui=bold,underline
   highlight Todo       guifg=#bb3333 guibg=NONE gui=underline
